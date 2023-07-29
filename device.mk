@@ -40,10 +40,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     VayuWifiOverlay
 
-# Setup
-PRODUCT_PACKAGES += \
-    PixelSetupWizardResTarget
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
